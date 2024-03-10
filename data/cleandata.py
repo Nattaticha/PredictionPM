@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a pandas DataFrame
-file_path = 'C:\\Users\\ASUS\\Desktop\\241-152\\finalproject\\air4thai44t2023-01-012024-02-27.csv'
+file_path = 'C:\\Users\\ASUS\\Desktop\\241-152\\finalproject\\data\\air4thai44t2023-01-012024-02-27.csv'
 data = pd.read_csv(file_path)
 
 

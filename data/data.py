@@ -25,7 +25,7 @@ def getstation_data(station_id):
     pd_from_dict = pd.DataFrame.from_dict(datas)
     # print(pformat(pd_from_dict))
     # print(pd_from_dict)
-    pd_from_dict.to_csv(f"air4thai{station_id}{start_date}{end_date}.csv", index=False)
+    pd_from_dict.to_csv(f"C:\\Users\\ASUS\\Desktop\\241-152\\finalproject\\data\\air4thai{station_id}{start_date}{end_date}.csv", index=False)
 
 def getstationid():
     stationids_url = "http://air4thai.com/forweb/getHistoryStation.php"
